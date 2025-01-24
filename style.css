@@ -1,0 +1,109 @@
+/* General styling */
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: #f8f9fa;
+    text-align:left 50px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008CFF;  /* Adjust to match the design */
+}
+.heading-container {
+    padding-left: 300px; /* Adjust value as needed */
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+/* appointment section */
+
+.appointment-section {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.greeting {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 10px;
+    align-content:right;
+}
+
+
+.search-box {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     flex-wrap: wrap;   
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background:  #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font font-style:bold;
+}
+.input-group label {
+    font-size: 14px;
+    font-weight: bold; /* Make the text bold */
+    color: #000; /* Change the color to black */
+    margin-bottom: 5px;
+}
+.input-group select,
+.input-group input {
+    padding: 8px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* search button */
+.search-btn {
+    background:  #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+/* why choose us section */
+.why-choose-us {
+    margin: 50px auto;
+    text-align: center;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.feature i {
+    font: size 10px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
